@@ -9,6 +9,10 @@ html {
 }
 
 body {
+    display:flex;
+    justify-content:center;
+	align-items:center;
+	background-color:#f1fafb;
     box-sizing: border-box;
     font-family: 'Red Hat Display', sans-serif;
     line-height: 1.7;
@@ -47,4 +51,132 @@ div.plan {
     align-items: center;
     width: 80%;
     height: 3rem;
+}
+
+.header{
+	box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	display:flex;
+	margin:50px 0 50px 0;
+	justify-content:center;
+	align-items:center;
+	background-image:url("images/pattern-background-desktop.svg")
+	
+}
+
+.summary-card{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-radius:8px 8px 8px 8px;
+	line-height:1.6;
+
+}
+
+.card{
+	width:50%;
+	background-color:white;
+	margin:100px 100px 100px 100px;
+	border-radius:8px 8px 8px 8px;
+	display:flex;
+	align-items:center;
+	box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.card-title{
+	text-align:center;
+	font-size:24px;
+	margin:20px 100px 20px 100px;
+}
+
+.card-text{
+	text-align:center;
+	font-size:18px;
+}
+
+.card-top-img{
+	max-width:100%;
+	border-radius:8px 8px 0 0;
+}
+
+.annual-plan{
+	display:inline;	
+}
+
+.card-header{
+	width:100%;
+	display:flex;
+	justify-content:space-around;
+	text-align:center;
+	
+}
+
+
+.proceed{
+	display:inline-block;
+	background-color:#161c91;
+	color:white;
+	padding:15px 32px;
+	width:90%;
+	margin:20px 20px 0 20px;
+	text-align:center;
+	text-decoration:none;
+	font-size:16px;
+	border-radius:8px;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	border:none;
+	
+}
+
+.proceed:hover{
+	cursor:pointer;
+	background-color:#7951AF;
+}
+.change{
+	color:#161c91;
+}
+
+.change:hover{
+	color:#7951AF;
+	text-decoration:none;
+}
+
+.cancel{
+	display:inline-block;
+	background-color:white;
+	color:#718096;
+	padding:15px 32px;
+	width:90%;
+	margin:20px 20px 0 20px;
+	text-align:center;
+	text-decoration:none;
+	font-size:16px;
+	border:none;
+}
+
+.cancel:hover{
+	cursor:pointer;
+	color:black;
+}
+
+.plans{
+	align-items:center;
+	background-color:#f1fafb;
+	display:flex;
+	justify-content:space-around;
+	margin: 0 20px 0 20px;
+	padding:20px 0 20px 0;
+	border-radius:8px 8px 8px 8px;
+}
+.card-body{
+	width:100%;
+}
+
+.attribution{
+    font-size: 11px; 
+    text-align: center;
+}
+
+.attribution a{
+    color: hsl(228, 45%, 44%);
 }
