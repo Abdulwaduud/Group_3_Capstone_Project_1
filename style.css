@@ -15,7 +15,41 @@ body {
     font-weight: 400;
 }
 
+.summary-card{
+	box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	display:flex;
+	margin:50px 0 50px 0;
+	justify-content:center;
+	align-items:center;
+	background-image:url("images/pattern-background-desktop.svg")
+	
+}
 
+.home{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-radius:8px 8px 8px 8px;
+	line-height:1.6;
+
+}
+
+.card{
+	width:50%;
+	background-color:white;
+	margin:100px 100px 100px 100px;
+	border-radius:8px 8px 8px 8px;
+	display:flex;
+	align-items:center;
+	box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.card-title{
+	text-align:center;
+	font-size:24px;
+	margin:20px 100px 20px 100px;
+}
 
 .card-text{
 	text-align:center;
