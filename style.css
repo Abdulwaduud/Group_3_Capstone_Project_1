@@ -9,7 +9,12 @@ body {
     justify-content:center;
     align-items:center;
     background-color:#f1fafb;
-    
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
 .summary-card{
 	box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 	display:flex;
