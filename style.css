@@ -146,8 +146,7 @@ body {
 }
 
 @media(max-width:480px) {
-	.summary-card{
-		
+	.header{
 		background-size:contain;
 		background-image:url("images/pattern-background-mobile.svg")
 		
