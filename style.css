@@ -135,11 +135,12 @@ body {
 }
 
 .attribution{
-    display:flex;
-    font-size: 11px; 
+    font-size: 10px; 
     text-align: center;
+	
 }
 
 .attribution a{
     color: hsl(228, 45%, 44%);
+	
 }
